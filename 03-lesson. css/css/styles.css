@@ -1,0 +1,274 @@
+/* 
+ Это комментарий
+*/
+
+body {
+    background-color: lightsteelblue;
+}
+
+p {
+    color: blue;
+}
+
+span {
+    font-style: italic;
+    font-weight: 600;
+    color: maroon;
+}
+
+/* p {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+} */
+
+a {
+    color: green;
+    font-size: 24px;
+    text-decoration: none;
+    display: none;
+}
+
+a {
+    display: inline;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* a:visited {
+    color: blue;
+} */
+
+.title {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.text {
+    color: magenta;
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+#google {
+    font-style: normal;
+    font-weight: 200;
+    color: black;
+}
+
+/* .link65
+.text01 */
+
+/* .link__item
+.list__item */
+
+.alert {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.succes {
+    color: green;
+    /* color: hsl(120, 100%, 50%); */
+    /* background-color: grey; */
+    /* display: none; */
+    /* line-height: 80px; */
+    /* border: 3px solid black; */
+}
+/* .warninng {
+    color: yellow;
+    color: rgb(255, 255, 0);
+    border: 1px solid black;
+
+    background-color: #ffffff;
+} */
+.error {
+    /* color: red; */
+    color: #ff0040;
+    /* border: 1px solid black; */
+}
+
+/* https://www.w3schools.com/colors/colors_picker.asp */
+
+.main-header {
+    color: rgb(187, 000, 157);
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma;
+    font-weight: 200;
+    font-style: italic;
+
+    /* display: none; */
+}
+
+.warninng {
+    color: yellow;
+    font-weight: 600;
+    /* border: 2px solid yellow; */
+    /* border-top: 2px solid yellow; 12
+    border-right: 2px solid yellow; 3
+    border-bottom: 2px solid yellow; 6
+    border-left: 2px solid yellow; 9 */
+    border: 2px solid black;
+    /* margin: 100px 50px 100px 50px; */
+    /* margin: 100px 50px 25px; */
+    /* margin: 100px 50px; */
+    /* margin: 100px; */
+    /* margin: 0 auto; */
+
+    /* margin-top: ;
+    margin-right: ;
+    margin-bottom: ;
+    margin-left: ; */
+
+    /* padding: 100px 50px 100px 50px; */
+}
+
+.warninng {
+    text-align: center;
+}
+
+.categories {
+    border: 2px solid blue;
+}
+
+/* ul.categories { */
+/* display: none; */
+/* list-style: none; */
+/* } */
+
+.categories .list {
+    border: none;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    padding-left: 5px;
+}
+
+.test-form {
+    margin: 150px;
+    padding: 25px;
+    background-color: gray;
+}
+
+.test-form .form-group {
+    padding: 20px;
+}
+
+/* .test-form input[type="text"] {
+    display: none;
+} */
+
+.test-form input[type="text"],
+.test-form input[type="email"],
+.test-form textarea {
+    width: 100%;
+}
+
+/* .test-form button {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: wheat;
+} */
+
+.btn {
+    background-color: green;
+    width: 100%;
+    height: 100px;
+    color: wheat;
+    border: 1px solid gree;
+    border-radius: 5px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+}
+
+.clr {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#sidebar {
+    float: right;
+    width: 25%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    border: 2px solid green;
+    margin: 100px 0;
+    width: 600px;
+    height: 450px;
+}
+
+.box h1 {
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+.box h2 {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+}
+
+.p-fixed {
+    position: fixed;
+    top: 450px;
+    left: 350px;
+}
+
+.flexBox {
+    display: flex;
+    margin: 50px 0;
+}
+
+.list {
+    margin: 50px;
+}
+
+.list li {
+    list-style: none;
+}
+
+/* .list li:first-child {
+    background-color: white;
+}
+
+.list li:last-child {
+    background-color: white;
+} */
+
+/* .list li:nth-child(even) {
+    background-color: white;
+}
+.list li:nth-child(odd) {
+    background-color: green;
+} */
+
+.list li:nth-child(3n) {
+    color: blue;
+    background-color: white;
+}
