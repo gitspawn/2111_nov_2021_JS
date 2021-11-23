@@ -7,10 +7,11 @@ CSS
     - block
     - flex (позже)
   - селекторы (
-    https://code.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+      https://code.tutsplus.com/ru/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+      https://wp-kama.ru/id_5875/30-css-selektorov.html 
     )
   - class / id / tag
-  - вес (приоритет) селетора ( https://wp-kama.ru/id_5875/30-css-selektorov.html )
+  - вес (приоритет) селетора ( https://wp-kama.ru/note/css-prioritety-kaskadnost )
   - цвет
     - фона;
     - текста;
