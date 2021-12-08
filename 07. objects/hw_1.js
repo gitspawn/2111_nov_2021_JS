@@ -23,16 +23,22 @@ let total = 0;
 //     }
 // }
 
-for (let i = 0; userInput !== null; i++) {
-    if (userInput !== null) {
-        if (!isNaN(Number(userInput))) {
-            total += Number(userInput);
-            userInput = prompt("Enter a number");
-        } else {
-            alert("Введено не число");
-            userInput = prompt("Enter a number");
-        }
-    }
-}
+// for (let i = 0; userInput !== null; i++) {
+//     if (userInput !== null) {
+//         if (!isNaN(Number(userInput))) {
+//             total += Number(userInput);
+//             userInput = prompt("Enter a number");
+//         } else {
+//             alert("Введено не число");
+//             userInput = prompt("Enter a number");
+//         }
+//     }
+// }
 
-console.log(total);
+// console.log(total);
+
+let user = "Vova";
+// let greet = `Hello ${user}`;
+let greet = "Hello   " + user;
+
+console.log(greet);
