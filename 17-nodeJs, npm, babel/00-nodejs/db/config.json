@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 18,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Atom One Dark"
+} 
