@@ -25,7 +25,3 @@ function fetchNews(query, pageNumber = 1) {
 }
 
 export default fetchNews;
-
-// https://newsapi.org
-
-// http://localhost:8080/
