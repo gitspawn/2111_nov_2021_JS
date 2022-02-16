@@ -1,9 +1,0 @@
-http - hyper text transfer protocol
-https - hyper text transfer protocol sequre
-
-TCP - протокол управления передачей
-IP - internet protocol
-
-SMTP - для почты
-
-FTP  - file transfer protokol
