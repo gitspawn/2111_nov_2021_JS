@@ -1,0 +1,38 @@
+/* @value red-add, green-add from '../../components/vars.module.css' */
+/* @value green-add from '../vars.module.css' */
+
+@value colors: "../vars.module.css";
+@value bl, re, gr from colors;
+
+.container {
+    background-color: grey;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+.name {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.price {
+    font-weight: 600;
+    color: white;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+/* Композиция */
+.awailable {
+    composes: price;
+    color: gr;
+}
+
+.notAwailable {
+    composes: price;
+    color: re;
+}

@@ -1,0 +1,29 @@
+.container {
+    background-color: grey;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+.name {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.price {
+    font-weight: 600;
+    color: white;
+    margin-left: 5px;
+}
+
+.awailable {
+    font-weight: 600;
+    color: green;
+}
+.notAwailable {
+    font-weight: 600;
+    color: red;
+}

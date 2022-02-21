@@ -1,0 +1,30 @@
+.Product {
+    background-color: grey;
+}
+
+.Product__button {
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+.Product__name {
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.Product__price {
+    font-weight: 600;
+    color: white;
+    margin-left: 5px;
+}
+
+.Product__qty.awailable {
+    font-weight: 600;
+    color: green;
+}
+
+.Product__qty.not-awailable {
+    font-weight: 600;
+    color: red;
+}
